@@ -1,0 +1,159 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+}
+/* Title section */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  height: auto;
+  position: absolute;
+  right: 50px;
+}
+
+.download-button {
+  margin: 5% 1% 5% 0%;
+}
+
+.img-col {
+  text-align: left;
+}
+/* features section */
+.features {
+  text-align: center;
+  padding: 2%;
+  margin: 2% 0;
+}
+#features {
+  padding: 5% 12%;
+  background-color: white;
+  position: relative;
+}
+.features-icons {
+  color: #ef8172;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.features-icons:hover {
+  color: #ff4c68;
+}
+.features-h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-imgs {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-buttons {
+  margin-top: 69px;
+}
+
+@media (max-width: 1054px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  .img-col {
+    text-align: center;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.download-button-ctn {
+  margin: 8% 4% 0 4%;
+}
+h3 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15% 0;
+  text-align: center;
+}
+
+.copy-right {
+  font-size: 17px;
+  color: #8f8f8f;
+}
+.footer-icons {
+  margin: 0 1% 3% 1%;
+}
